@@ -8,6 +8,8 @@ This system is predicated on four or more interfaces:
 
 We also separate the display elements into primatives. These primatives display a particular state in the current user interface.
 
+## 
+
 ## Primatives
 
 There are just three primatives that encompass the MGI design system:
@@ -16,3 +18,14 @@ There are just three primatives that encompass the MGI design system:
 - Content
 - Input
 
+### Container
+
+A `Container` arranges items within it. The design of the container is roughly based on the concepts within the [W3C Flexible Box Layout Module Level 1](https://www.w3.org/TR/css-flexbox-1/) specification.
+
+### Content
+
+A `Content` primative displays data of a content type. It displays text, images, video, or whatever can be supported by a driver.
+
+### Input
+
+A `Input` primative is a multi-state display element that is controlled by imput events. When input events happen, they update according to the values.
