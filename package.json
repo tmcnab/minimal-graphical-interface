@@ -1,0 +1,6 @@
+{
+	"private": true,
+	"scripts": {
+		"doc:serve": "cd doc && mdbook serve"
+	}
+}
