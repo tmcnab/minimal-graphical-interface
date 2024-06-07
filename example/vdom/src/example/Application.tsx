@@ -1,5 +1,4 @@
-import { Container } from './primatives/Container'
-
+import { Container } from '../primatives/Container'
 
 export default function Application () {
 	return (

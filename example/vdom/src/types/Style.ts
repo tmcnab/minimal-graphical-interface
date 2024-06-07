@@ -1,12 +1,13 @@
 export type Color = number & { __brand: 'Color' }
 
-export type Size = 'large' | 'medium' | 'small'
+export type Size = ('large' | 'medium' | 'small') & { _brand: 'Size' }
 
 export class Style
 {
-	aspectRatio: undefined | number
-	borderColor: undefined | Color
-	borderStyle: undefined | 'dotted' | 'none' | 'solid'
-	borderWidth: undefined | Size
-	padding:     undefined | Size
+	aspectRatio?:     number
+	backgroundColor?: string
+	borderColor?:     Color
+	borderStyle?:     'dotted' | 'none' | 'solid'
+	borderWidth?:     Size
+	padding?:         Size
 }
