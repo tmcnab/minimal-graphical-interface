@@ -1,6 +1,5 @@
 import { Container } from './primatives/Container'
-import { Content } from './primatives/Content'
-import { Input } from './primatives/Input'
+
 
 export default function Application () {
 	return (
